@@ -1,0 +1,413 @@
+
+  nav{
+    background-color: red;
+    height: 50px;
+  }
+  #c1{
+    background-size: cover;
+    background-color:black;
+    border-color:#1B4F72;
+    border-style: solid;
+    height: 675px;
+    opacity:0.7;
+    width:20%;
+  }
+  #c2{
+    height: 675px;
+    border-radius: 10px;
+  }
+  #txt1{
+    border-color:#1B4F72;
+    font-size: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-color:black;
+    opacity:0.9;
+  }
+  #c3{
+    background-size: cover;
+    background-color: black;
+    border-color:#1B4F72 ;
+    border-style: solid;
+    height: 675px;
+    opacity:0.8;
+    width:30%;
+  }
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    width:70%;
+    height:70%;
+    left:155px;
+    top:50px;
+    padding-top: 10px;
+    position: fixed;
+    overflow: auto;
+}
+
+/* Modal Content */
+.modal-content {
+position: relative;
+margin: auto;
+padding: 0;
+width: 70%;
+border:3px solid  silver;
+background-color:#171718;
+animation-name: animatetop;
+animation-duration: 0.8s
+}
+
+
+@keyframes animatetop {
+from {top:-300px; opacity:0}
+to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+color: white;
+float: right;
+font-size: 40px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color:white;
+text-decoration: none;
+cursor: pointer;
+}
+
+.modal-header {
+padding: 2px 16px;
+background-color: black;
+color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+padding: 2px 16px;
+background-color:black;
+color: white;
+}
+  #return1{
+    margin-left:15px;
+    padding: 5px 15px;
+    width:20%;
+    background-color:silver;
+    font-size:200%;
+    font-style:normal;
+    font-weight:bold;
+    font-family:sans-serif;
+    color:black;
+    border-radius:7px;
+  }
+  #exit1{
+    margin-left:15px;
+    padding: 5px 15px;
+    width:20%;
+    background-color:silver;
+    font-size:200%;
+    font-style:normal;
+    font-weight:bold;
+    font-family:sans-serif;
+    color:black;
+    border-radius:7px;
+  }
+  #return2{
+    margin-left:15px;
+    padding: 5px 15px;
+    width:20%;
+    background-color:silver;
+    font-size:200%;
+    font-style:normal;
+    font-weight:bold;
+    font-family:sans-serif;
+    color:black;
+    border-radius:7px;
+  }
+  #return3{
+    margin-left:15px;
+    padding: 5px 15px;
+    width:20%;
+    background-color:silver;
+    font-size:200%;
+    font-style:normal;
+    font-weight:bold;
+    font-family:sans-serif;
+    color:black;
+    border-radius:7px;
+  }
+  #return4{
+    margin-left:15px;
+    padding: 5px 15px;
+    width:20%;
+    background-color:silver;
+    font-size:200%;
+    font-style:normal;
+    font-weight:bold;
+    font-family:sans-serif;
+    color:black;
+    border-radius:7px;
+  }
+  #return5{
+    margin-left:15px;
+    padding: 10px 15px;
+    width:20%;
+    background-color:silver;
+    font-size:200%;
+    font-style:normal;
+    font-weight:bold;
+    font-family:sans-serif;
+    color:black;
+    border-radius:7px;
+  }
+  #return5:hover{
+      background: linear-gradient(to right,#96A2C2,#01213E);
+  }
+  #modalharm{
+    display: none;
+    width:97%;
+    height:45%;
+    left:55px;
+    top:350px;
+    padding-top: 10px;
+    position:absolute;
+    overflow: auto;
+  }
+    #harm1{
+      position: relative;
+      margin: auto;
+      padding: 0;
+      width: 97%;
+      border:3px solid  silver;
+      background-color:#171718;
+      animation-name: animatetop1;
+      animation-duration: 0.6s
+  }
+
+
+  @keyframes animatetop1 {
+      from {top:-300px; opacity:0}
+      to {top:0; opacity:1}
+  }
+  #harm2{
+    padding: 1px 1px;
+  }
+  #skip2{
+    padding: 10px 10px;
+  }
+  .button2{
+    width:10%;
+    border-color:#01213E ;
+    padding: 5%;
+    border-radius: 30px;
+  }
+  #input1{
+    margin-left:15px;
+    padding: 25px 30px;
+    width:90%;
+    margin-bottom: 20px;
+    background-image:url("H:/Clash and RC/Final/ci/new5.jpg");
+    border-radius: 6px;
+    border-color: 4px solid #8280a0;
+  }
+  #input10{
+    width:75%;
+    padding: 27px;
+    margin-left: 10px;
+    border-radius: 6px;
+    background-color: inherit;
+    border-color: 4px solid #8280a0;
+    background-image:url("H:/Clash and RC/Final/ci/new5.jpg");
+    color:white;
+    font-weight: bold;
+    font-size: 150%;
+    transition: width 0.5s;
+  }
+  #input20{
+    width:75%;
+    padding: 27px;
+    margin-left: 10px;
+    border-radius: 6px;
+    /*background-color: inherit;*/
+    border-color: 4px solid #8280a0;
+    background-image:url("H:/Clash and RC/Final/ci/new5.jpg");
+    color: white ;
+    font-size: 150%;
+    transition: width 0.5s;
+  }
+  #input30{
+    width:75%;
+    padding:27px;
+    margin-left: 10px;
+    border-radius: 6px;
+    background-color: inherit;
+    border-color: 4px solid #8280a0;
+    background-image:url("H:/Clash and RC/Final/ci/new5.jpg");
+    color:white;
+    font-size: 150%;
+    transition: width 0.5s;
+  }
+  #input40{
+    width:75%;
+    padding:27px;
+    margin-left: 10px;
+    /*border-radius: 10px;
+    background-color: inherit;
+    border-color: 4px solid #8280a0;*/
+    background-image:url("H:/Clash and RC/Final/ci/new5.jpg");
+    color:black;
+    opacity: 1;
+    font-size: 150%;
+    transition: width 0.5s;
+    border-radius: 6px;
+  }
+
+  /*#input10:hover,#input20:hover,#input30:hover,#input40:hover*/{
+    background-color: red;
+    font-size: 200%;
+    color:white;
+    transition: font-size 1s;
+  }
+  .button3:hover,.button1:hover,#return2:hover,#return1:hover,#exit1:hover,#btlf1:hover,#btlf2:hover{
+    background: linear-gradient(to right,#96A2C2,#01213E);
+  }
+  .button1{
+    margin-left:15px;
+    padding: 15px 15px;
+    width:90%;
+    background-color:silver;
+    font-size:200%;
+    font-style:normal;
+    font-weight:bold;
+    font-family:sans-serif;
+    color:black;
+    border-radius:7px;
+  }
+  .button3{
+    margin-left:100px;
+    padding: 13px 15px;
+    width:58%;
+    background-color:silver;
+    font-size:200%;
+    font-style:normal;
+    font-weight:bold;
+    font-family:sans-serif;
+    color:black;
+    border-radius:7px;
+    margin-top: 30px;
+  }
+  #btlf1{
+    margin-left:15px;
+    padding:15px 15px;
+    width:90%;
+    background-color:silver;
+    font-size:180%;
+    font-style:normal;
+    font-weight:bold;
+    font-family:sans-serif;
+    color:black;
+    border-radius:7px;
+  }
+  #btlf2{
+    margin-left:15px;
+    padding:15px 15px;
+    width:90%;
+    background-color:silver;
+    font-size:180%;
+    font-style:normal;
+    font-weight:bold;
+    font-family:sans-serif;
+    color:black;
+    border-radius:7px;
+  }
+  #c31{
+    height: 100px;
+  }
+  #c32{
+    height: 50px;
+  }
+
+  #p10{
+    font-size: 150%;
+    color:white;
+    font-weight: bold;
+  }
+.lifeline1{
+  width:100%;
+}
+.lifeline2{
+  width:100%;
+}
+#navbt1:hover{
+  pointer=cursor;
+}
+  #navimodal{
+    display: none;
+    width:80%;
+    height:100%;
+    left:40%;
+    top:-4%;
+    padding-top: 80px;
+    position: fixed;
+    overflow: auto;
+  }
+  #options{
+    postion:relative;
+    margin: auto;
+    padding: 0;
+    border:3px solid  silver;
+    width:50%;
+    background-color:#171718;
+    font-size: 100%;
+    animation-name:animatetop;
+    animation-duration: 0.5s
+      }
+      @keyframes animatetop {
+        from{top:-10px;opacity:0}
+        to{top:0px;opacity: :0.5}
+      }
+      #options1{
+        padding: 5px 5px;
+
+      }
+      .p11{
+        margin-left:15px;
+        padding: 7px 15px;
+        width:16%;
+        background-color:silver;
+        font-size:200%;
+        font-style:normal;
+        font-weight:bold;
+        font-family:sans-serif;
+        color:black;
+        border-radius:7px;
+      }
+      .p11:hover{
+        background: linear-gradient(to right,#96A2C2,#01213E);
+        color:white;
+      }
+      #heading{
+        background-color:black;
+        color:white;
+        font-weight:bold;
+        width:40%;
+        height:9%;
+        margin-left:30%;
+        text-align:center;
+        padding-top:2%;
+      }
+      #heading2{
+        background-color:black;
+        color:white;
+        font-weight:bold;
+        width:40%;
+        height:9%;
+        margin-left:22%;
+        text-align:center;
+        padding-top:2%;
+      }

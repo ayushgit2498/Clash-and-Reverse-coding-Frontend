@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bare - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        background-image: url(ci/back.jpg);
+        /*padding-top: 70px;*/
+        background-size: cover;
+        overflow: hidden;
+
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    .rsp{
+          border: 2px solid  rgba(0,230,0,0.5);
+          padding-top: 5%;
+          min-height: 155px;
+          padding-left: 5%;
+          border-radius: 20px;
+          background-color: black;
+          opacity: 0.5;
+    }
+        #res{
+
+          position: relative;
+          top: 50px;
+          height: 338px;
+          border-radius: 20px;
+          }
+        .att{
+          border: 2px solid silver;
+          padding-top: 5%;
+          padding-left: 5%;
+          height: 135px;
+          border-radius: 20px;
+          margin-bottom: 10px;
+
+          /*background-color: black;*/
+          /*opacity: 0.5;*/
+
+          -webkit-box-sizing: content-box;
+          -moz-box-sizing: content-box;
+          box-sizing: content-box;
+          /*border: none;*/
+          font: normal 12px/normal "Times New Roman", Times, serif;
+          color: rgba(0,0,0,0.9);
+          -o-text-overflow: clip;
+          /*text-overflow: clip;*/
+          -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.5) ;
+          box-shadow: 0 0 2px 2px rgba(0,0,0,0.5) ;
+
+        }
+        .log1{
+          margin-top: 5px;
+          margin-right: 50px;
+          /*border: 2px solid rgba(0,230,0,0.5);*/
+          min-height: 150px;
+          border-radius: 20px;
+          background-color:black;
+          opacity: .8;
+          padding-left: 13%;
+          box-shadow: 3px 3px 3px rgba(255,255,255,0.2);
+        }
+           .log2{
+          margin-top: 5px;
+          margin-right: 50px;
+          margin-bottom: 3px;
+          /*border: 2px solid rgba(0,230,0,0.5);*/
+          min-height: 150px;
+          border-radius: 20px;
+          background-color:black;
+          opacity: .7;
+          padding-left: 13%;
+          box-shadow: 3px 3px 3px rgba(255,255,255,0.2);
+        }
+        .log3{
+          margin-top: 5px;
+          margin-right: 25px;
+          margin-left: 25px;
+          /*border: 2px solid rgba(0,230,0,0.5);*/
+          min-height: 150px;
+          border-radius: 20px;
+          background-color:black;
+          opacity: .8;
+          padding-left: 30px;
+          box-shadow: 3px 3px 3px rgba(255,255,255,0.2);
+        }
+        .log4{
+          margin-top: 5px;
+          margin-right: 25px;
+          margin-left: 25px;
+          margin-bottom: 3px;
+          /*border: 2px solid rgba(0,230,0,0.5);*/
+          min-height: 150px;
+          border-radius: 20px;
+          background-color:black;
+          opacity: .7;
+          padding-left: 13%;
+          box-shadow: 3px 3px 3px rgba(255,255,255,0.2);
+        }
+        .log5{
+          margin-top: 5px;
+          margin-right: 25px;
+          margin-left: 25px;
+          /*border: 2px solid rgba(0,230,0,0.5);*/
+          min-height: 150px;
+          border-radius: 20px;
+          background-color:black;
+          opacity: .8;
+          padding-left: 13%;
+        }
+        .log6{
+          margin-top: 5px;
+          margin-right: 25px;
+          margin-left: 25px;
+          margin-bottom: 3px;
+          border: 2px solid rgba(0,230,0,0.5);
+          min-height: 150px;
+          border-radius: 20px;
+          background-color:black;
+          opacity: .7;
+          padding-left: 13%;
+        }
+        .log7{
+          margin-top: 5px;
+          margin-left: 50px;
+          /*border: 2px solid rgba(0,230,0,0.5);*/
+          min-height: 150px;
+          border-radius: 20px;
+          background-color:black;
+          opacity: .8;
+          padding-left: 13%;
+        }
+        .log8{
+          margin-top: 5px;
+          margin-left: 50px;
+          margin-bottom: 3px;
+          border: 2px solid rgba(0,230,0,0.5);
+          min-height: 150px;
+          border-radius: 20px;
+          background-color:black;
+          opacity: .7;
+          padding-left: 13%;
+        }
+
+.pb
+{   margin-top:37px;
+	background: rgba(0,0,0,0.7);
+	/*display:block;*/
+	padding-top:10px;
+	padding-left:26px;
+	font-size:20px;
+	color:white;
+	height:50px;
+}
+font.f1{
+  position: relative;
+  top: 10px;
+   font-family: "Berlin Sans FB","Comic Sans MS";
+   color:white;
+   text-shadow: 2px 2px 2px rgba(0,0,0,0.5) ;
+}
+font.f2{
+  position: relative;
+  top: 20px;
+
+}
+
+    .row1{
+      height:70px;
+      /*border:2px solid black;*/
+      margin-top:40px;
+      margin-bottom:20px;
+      margin-left: 20px;
+    }
+p.p1{
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 38px;
+  color:black;
+  font-family: "Rockwell Condensed";
+  text-shadow: 4px 4px 6px rgba(0,0,0,0.5) ;
+}
+#p1{
+  position: relative;
+  left: 150px;
+  top: 25px;
+}
+#p2{
+  position: relative;
+  /*display: inline-block;*/
+  top: -40px;
+  left:296px;
+  font-family:"Times New Roman";
+  font-size: 150px;
+  opacity: 0.7;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5) ;
+  color: red;
+}
+#score{
+margin-left: 200px;
+}
+#score1{
+  margin-left: 200px;
+}
+h1{
+  margin-left: 50px;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "Rockwell Condensed";
+}
+.img1{
+height: 45px;
+width: 150px;
+border-radius:10px;
+/*margin-top: px;*/
+margin-top: -10px;
+position: relative;
+left: 1100px;
+}
+.img2{
+height: 75px;
+width: 90px;
+border-radius:10px;
+margin-top: -18px;
+}
+#nav1{
+            background:rgba(0,0,0,0.7);
+            height:5px;
+            margin-bottom:8px;
+}
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+   <nav class="navbar navbar-inverse" id="nav1">
+  <div class="container-fluid">
+    <div class="navbar-header">
+
+    <img src="ci/clashlogo.png" class="img2">
+    <img src="ci/pict.png" class="img1">
+
+
+    </div>
+
+
+  </div>
+</nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div id="res" class="col-lg-8">
+              <h1>YOUR SCORE IS:</h1>
+
+              <p id="p2">38</p>
+
+
+            </div>
+
+
+
+            <div class="col-lg-4">
+                    <div class="att">
+                        <p><font class="f1" size="5">QUESTIONS ATTEMPTED:</font></p>
+                      <p id="p1"><font size="5">X</font></p>
+                    </div>
+                    <div class="att">
+                        <p><font class="f1" size="5">CORRECT RESPONSE:</font></p>
+                        <p id="p1"><font size="5">X</font></p>
+                    </div>
+            </div>
+                </div>
+    </div>
+        <!-- /.row -->
+     <div class="container lower">
+
+       <div class="row">
+         <div class="row1">
+           <p class="p1">DO PARTICIPATE IN OUR OTHER EVENTS:</p>
+         </div>
+       </div>
+
+        <div class="row">
+            <div class="col-lg-3">
+
+                <div class="log1">
+                    <img src="ci/revb.png" width="150px">
+                </div>
+            </div>
+            <div class="col-lg-3">
+
+                <div class="log3">
+                    <img src="ci/quiz.png" width="150px">
+                </div>
+            </div>
+            <div class="col-lg-3">
+
+                <div class="log5">
+                    <img src="ci/software.png" width="150px">
+                </div>
+            </div>
+            <div class="col-lg-3">
+
+                <div class="log7">
+                    <img src="ci/wallstreet.png" width="150px">
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="col-md-12 pb "><span style="margin-left:480px;"><span class="glyphicon glyphicon-copyright-mark" style="font-size:25px"></span><b>	 COPYRIGHT PICT IEEE STUDENT BRANCH </b></span> </div>
+
+<script>
+    var x=document.getElementById('p2').innerHTML;
+/*
+    if(x>0)
+        {
+            document.getElementById("res").style.backgroundColor="green";
+            document.getElementById("res").style.opacity=.55;
+        }
+    else
+        {
+            document.getElementById("res").style.backgroundColor="#990000";
+            document.getElementById("res").style.opacity=.55;
+        }*/
+
+var y=document.getElementById('score');
+var z=document.getElementById('p2');
+if(x<0){
+  /*y.src="stop(1).gif"*/
+  x.style.color="green";
+}
+else {
+  /*y.src="green.png";*/
+  x.style.color="red";
+}
+</script>
+
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
